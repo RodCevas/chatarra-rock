@@ -1,35 +1,40 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import "./App.css";
+import InicioPage from "./pages/InicioPage";
+import DiscografiaPage from "./pages/DiscografiaPage";
+import VideosPage from "./pages/VideosPage";
+import BiografiaPage from "./pages/BiografiaPage";
+import EventosPage from "./pages/EventosPage";
+import ContactoPage from "./pages/ContactoPage";
+import RiderPage from "./pages/RiderPage";
+import CachePage from "./pages/CachePage";
+import RootLayout from "./pages/RootLayout";
+import ErrorPage from "./pages/ErrorPage";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <RootLayout />,
+    errorElement: <ErrorPage />,
+    children: [
+      { path: "/", element: <InicioPage /> },
+      { path: "/discografia", element: <DiscografiaPage /> },
+      { path: "/videos", element: <VideosPage /> },
+      { path: "/biografia", element: <BiografiaPage /> },
+      { path: "/eventos", element: <EventosPage /> },
+      { path: "/contacto", element: <ContactoPage /> },
+      { path: "/rider", element: <RiderPage /> },
+      { path: "/cache", element: <CachePage /> },
+    ],
+  },
+]);
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div className="container-fluid">
+      <RouterProvider router={router} />
+    </div>
+  );
 }
 
-export default App
+export default App;
