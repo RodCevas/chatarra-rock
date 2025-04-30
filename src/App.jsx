@@ -32,7 +32,7 @@ const router = createBrowserRouter([
 function App() {
   return (
     <div className="container-fluid">
-      <RouterProvider router={router} />
+      <RouterProvider router={router} basename="/chatarra-rock" />
     </div>
   );
 }
