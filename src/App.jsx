@@ -11,28 +11,33 @@ import CachePage from "./pages/CachePage";
 import RootLayout from "./pages/RootLayout";
 import ErrorPage from "./pages/ErrorPage";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <RootLayout />,
+      errorElement: <ErrorPage />,
+      children: [
+        { path: "/", element: <InicioPage /> },
+        { path: "/discografia", element: <DiscografiaPage /> },
+        { path: "/videos", element: <VideosPage /> },
+        { path: "/biografia", element: <BiografiaPage /> },
+        { path: "/eventos", element: <EventosPage /> },
+        { path: "/contacto", element: <ContactoPage /> },
+        { path: "/rider", element: <RiderPage /> },
+        { path: "/cache", element: <CachePage /> },
+      ],
+    },
+  ],
   {
-    path: "/",
-    element: <RootLayout />,
-    errorElement: <ErrorPage />,
-    children: [
-      { path: "/", element: <InicioPage /> },
-      { path: "/discografia", element: <DiscografiaPage /> },
-      { path: "/videos", element: <VideosPage /> },
-      { path: "/biografia", element: <BiografiaPage /> },
-      { path: "/eventos", element: <EventosPage /> },
-      { path: "/contacto", element: <ContactoPage /> },
-      { path: "/rider", element: <RiderPage /> },
-      { path: "/cache", element: <CachePage /> },
-    ],
-  },
-]);
+    basename: import.meta.env.BASE_URL.replace(/\/$/, '')
+  }
+);
 
 function App() {
   return (
     <div className="container-fluid">
-      <RouterProvider router={router} basename="/chatarra-rock" />
+      <RouterProvider router={router} />
     </div>
   );
 }
