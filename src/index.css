@@ -48,7 +48,7 @@ nav .nav-link.active {
       rgba(255, 255, 255, 0.7),
       rgba(255, 255, 255, 1)
     ),
-    url("https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fhome-banner.jpg?alt=media&token=7118943d-4d50-4714-a5d1-d7bc216b65cc")
+    url("/public/home-banner.jpg")
       no-repeat center bottom;
   height: 100%;
   -ms-background-size: cover;
@@ -77,7 +77,7 @@ nav .nav-link.active {
       rgba(255, 255, 255, 0.2),
       rgba(255, 255, 255, 0.2)
     ),
-    url("https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fbg-integrantes.jpg?alt=media&token=8c1e5dde-e68c-4205-973d-4706d7d3a19c")
+    url("/public/bg-integrantes.jpg")
       no-repeat center center;
   -ms-background-size: cover;
   -webkit-background-size: cover;
@@ -106,7 +106,7 @@ nav .nav-link.active {
       rgba(255, 255, 255, 0.8),
       rgba(255, 255, 255, 0.8)
     ),
-    url("https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fbg-disco.jpg?alt=media&token=29e2d2ea-44f9-46cf-bd00-2346a00ff5ca")
+    url("/public/bg-discography.jpg")
       no-repeat center center;
   height: 100%;
   background-attachment: fixed;
@@ -137,7 +137,7 @@ nav .nav-link.active {
       rgba(255, 255, 255, 0.6),
       rgba(255, 255, 255, 0.6)
     ),
-    url("https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fbg-videos.jpg?alt=media&token=2bf1c039-686f-4bf4-ae67-6677cba5290d")
+    url("/public/bg-videos.jpg")
       no-repeat center center;
   height: 100%;
   background-attachment: fixed;
@@ -170,7 +170,7 @@ nav .nav-link.active {
       rgba(255, 255, 255, 0.6),
       rgba(255, 255, 255, 0.6)
     ),
-    url("https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fbg-contacto-cache.jpg?alt=media&token=f321e4e5-185a-4653-8a95-decd24574ab4")
+    url("/public/bg-contacto-cache.jpg")
       no-repeat center center;
   height: 100%;
   -ms-background-size: cover;
@@ -187,7 +187,7 @@ nav .nav-link.active {
       rgba(255, 255, 255, 0.3),
       rgba(255, 255, 255, 0.3)
     ),
-    url("https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fbg-bio.jpg?alt=media&token=acffc15a-13ed-40f0-9971-7bf87e59c383")
+    url("/public/bg-bio.jpg")
       no-repeat center center;
   height: 80vh;
   -ms-background-size: cover;
@@ -258,7 +258,7 @@ nav .nav-link.active {
         rgba(255, 255, 255, 0.6),
         rgba(255, 255, 255, 0.6)
       ),
-      url("https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Falice-donovan-rouse-yu68fUQDvOI-unsplash.jpg?alt=media&token=095e5b61-3a67-4d61-bb6d-6742e39e6dcd")
+      url("/public/bg-discography.jpg")
         no-repeat center center;
     height: 100%;
     -ms-background-size: cover;
@@ -273,7 +273,7 @@ nav .nav-link.active {
         rgba(255, 255, 255, 0.6),
         rgba(255, 255, 255, 0.6)
       ),
-      url("https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fmanolo-chretien-RpC-9e0ORNM-unsplash.jpg?alt=media&token=0a43f41c-98de-4a53-b7f1-79d76bc8ce40")
+      url("/public/bg-videos.jpg")
         no-repeat center center;
     height: 100%;
     -ms-background-size: cover;
@@ -290,7 +290,7 @@ nav .nav-link.active {
         rgba(255, 255, 255, 0.3),
         rgba(255, 255, 255, 0.3)
       ),
-      url("https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fbg-rider.jpg?alt=media&token=2b5392ab-f8cd-40c0-980a-d29b6690a20d")
+      url("/public/bg-bio.jpg")
         no-repeat;
     height: 30vh;
     -ms-background-size: cover;

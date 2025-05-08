@@ -1,5 +1,5 @@
 function Footer() {
-  const showCookieBanner = () => {
+/*   const showCookieBanner = () => {
     const cookieBanner = document.querySelector(
       ".cky-consent-container.cky-classic-bottom"
     );
@@ -7,7 +7,7 @@ function Footer() {
       cookieBanner.classList.remove("cky-hide");
       cookieBanner.classList.add("cky-consent-bar-expand");
     }
-  };
+  }; */
 
   return (
     <footer id="footer">
@@ -68,7 +68,7 @@ function Footer() {
             rel="noreferrer"
           >
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fjamendo.png?alt=media&token=92ee56eb-578f-4753-831a-2b88dc7f06f8"
+              src="/public/jamendo.png"
               className="img-fluid my-1"
               alt="jamendo logo"
               style={{ maxWidth: "30px" }}
