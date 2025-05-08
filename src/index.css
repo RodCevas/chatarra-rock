@@ -48,8 +48,7 @@ nav .nav-link.active {
       rgba(255, 255, 255, 0.7),
       rgba(255, 255, 255, 1)
     ),
-    url("/public/home-banner.jpg")
-      no-repeat center bottom;
+    url("./assets/images/home-banner.jpg") no-repeat center bottom;
   height: 100%;
   -ms-background-size: cover;
   -webkit-background-size: cover;
@@ -77,8 +76,7 @@ nav .nav-link.active {
       rgba(255, 255, 255, 0.2),
       rgba(255, 255, 255, 0.2)
     ),
-    url("/public/bg-integrantes.jpg")
-      no-repeat center center;
+    url("./assets/images/bg-integrantes.jpg") no-repeat center center;
   -ms-background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -106,8 +104,7 @@ nav .nav-link.active {
       rgba(255, 255, 255, 0.8),
       rgba(255, 255, 255, 0.8)
     ),
-    url("/public/bg-discography.jpg")
-      no-repeat center center;
+    url("./assets/images/bg-discography.jpg") no-repeat center center;
   height: 100%;
   background-attachment: fixed;
   -ms-background-size: cover;
@@ -137,8 +134,7 @@ nav .nav-link.active {
       rgba(255, 255, 255, 0.6),
       rgba(255, 255, 255, 0.6)
     ),
-    url("/public/bg-videos.jpg")
-      no-repeat center center;
+    url("./assets/images/bg-videos.jpg") no-repeat center center;
   height: 100%;
   background-attachment: fixed;
   -ms-background-size: cover;
@@ -170,8 +166,7 @@ nav .nav-link.active {
       rgba(255, 255, 255, 0.6),
       rgba(255, 255, 255, 0.6)
     ),
-    url("/public/bg-contacto-cache.jpg")
-      no-repeat center center;
+    url("./assets/images/bg-contacto-cache.jpg") no-repeat center center;
   height: 100%;
   -ms-background-size: cover;
   -webkit-background-size: cover;
@@ -187,8 +182,7 @@ nav .nav-link.active {
       rgba(255, 255, 255, 0.3),
       rgba(255, 255, 255, 0.3)
     ),
-    url("/public/bg-bio.jpg")
-      no-repeat center center;
+    url("./assets/images/bg-bio.jpg") no-repeat center center;
   height: 80vh;
   -ms-background-size: cover;
   -webkit-background-size: cover;
@@ -258,8 +252,7 @@ nav .nav-link.active {
         rgba(255, 255, 255, 0.6),
         rgba(255, 255, 255, 0.6)
       ),
-      url("/public/bg-discography.jpg")
-        no-repeat center center;
+      url("./assets/images/bg-discography.jpg") no-repeat center center;
     height: 100%;
     -ms-background-size: cover;
     -webkit-background-size: cover;
@@ -273,8 +266,7 @@ nav .nav-link.active {
         rgba(255, 255, 255, 0.6),
         rgba(255, 255, 255, 0.6)
       ),
-      url("/public/bg-videos.jpg")
-        no-repeat center center;
+      url("./assets/images/bg-videos.jpg") no-repeat center center;
     height: 100%;
     -ms-background-size: cover;
     -webkit-background-size: cover;
@@ -290,8 +282,7 @@ nav .nav-link.active {
         rgba(255, 255, 255, 0.3),
         rgba(255, 255, 255, 0.3)
       ),
-      url("/public/bg-bio.jpg")
-        no-repeat;
+      url("./assets/images/bg-bio.jpg") no-repeat;
     height: 30vh;
     -ms-background-size: cover;
     -webkit-background-size: cover;

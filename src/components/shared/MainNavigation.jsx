@@ -1,8 +1,8 @@
 import { NavLink } from "react-router-dom";
+import logoChatarra from "../../assets/images/logo-chatarra.png";
 
 function MainNavigation() {
-
-  const activeNav = ({ isActive }) => isActive ? 'active' : undefined;
+  const activeNav = ({ isActive }) => (isActive ? "active" : undefined);
 
   return (
     <header id="navbar">
@@ -20,7 +20,7 @@ function MainNavigation() {
         </button>
         <div className="navbar-brand ml-sm-5">
           <img
-            src="/public/logo-chatarra.png"
+            src={logoChatarra}
             alt="logo chatarra rock"
             className="d-inline-block align-top logo-nav"
           />
@@ -28,7 +28,11 @@ function MainNavigation() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav mx-auto">
             <li id="inicio" className="nav-item mx-3">
-              <NavLink to="/" className={`nav-link inicio hide-toggle-navbar ${activeNav}`} end  >
+              <NavLink
+                to="/"
+                className={`nav-link inicio hide-toggle-navbar ${activeNav}`}
+                end
+              >
                 Inicio
               </NavLink>
             </li>
@@ -41,22 +45,34 @@ function MainNavigation() {
               </NavLink>
             </li>
             <li id="videos" className="nav-item mx-3">
-              <NavLink to="/videos" className={`nav-link videos hide-toggle-navbar ${activeNav}`}>
+              <NavLink
+                to="/videos"
+                className={`nav-link videos hide-toggle-navbar ${activeNav}`}
+              >
                 Videos
               </NavLink>
             </li>
             <li id="biografia" className="nav-item mx-3">
-              <NavLink to="/biografia" className={`nav-link bio hide-toggle-navbar ${activeNav}`}>
+              <NavLink
+                to="/biografia"
+                className={`nav-link bio hide-toggle-navbar ${activeNav}`}
+              >
                 Biografía
               </NavLink>
             </li>
             <li id="gira" className="nav-item mx-3">
-              <NavLink to="/eventos" className={`nav-link gira hide-toggle-navbar ${activeNav}`}>
+              <NavLink
+                to="/eventos"
+                className={`nav-link gira hide-toggle-navbar ${activeNav}`}
+              >
                 Eventos
               </NavLink>
             </li>
             <li id="contacto" className="nav-item mx-3">
-              <NavLink to="/contacto" className={`nav-link contacto hide-toggle-navbar ${activeNav}`}>
+              <NavLink
+                to="/contacto"
+                className={`nav-link contacto hide-toggle-navbar ${activeNav}`}
+              >
                 Contacto
               </NavLink>
             </li>

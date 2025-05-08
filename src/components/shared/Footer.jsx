@@ -1,5 +1,7 @@
+import jamendo from "../../assets/images/jamendo.png";
+
 function Footer() {
-/*   const showCookieBanner = () => {
+  /*   const showCookieBanner = () => {
     const cookieBanner = document.querySelector(
       ".cky-consent-container.cky-classic-bottom"
     );
@@ -68,7 +70,7 @@ function Footer() {
             rel="noreferrer"
           >
             <img
-              src="/public/jamendo.png"
+              src={jamendo}
               className="img-fluid my-1"
               alt="jamendo logo"
               style={{ maxWidth: "30px" }}

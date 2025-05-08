@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import estrella from "../assets/images/logo-estrella-sm.png";
 
 function Cache() {
   return (
@@ -6,13 +7,13 @@ function Cache() {
       <div className="row">
         <div className="col-lg-12 my-5 text-center">
           <img
-            src="/public/logo-estrella-sm.png"
+            src={estrella}
             alt="estrella chatarra"
             className="img-fluid estrella"
           />
           <h3 className="d-inline mx-4">Cache</h3>
           <img
-            src="/public/logo-estrella-sm.png"
+            src={estrella}
             alt="estrella chatarra"
             className="img-fluid estrella"
           />
