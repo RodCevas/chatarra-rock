@@ -7,13 +7,13 @@ function Eventos() {
         <div className="row">
           <div className="col-lg-12 mt-5 text-center">
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Flogo-estrella-sm.png?alt=media&token=c24ae8d6-5608-45c4-ac64-65624c645173"
+              src="/public/logo-estrella-sm.png"
               alt="estrella chatarra"
               className="img-fluid estrella"
             />
             <h3 className="d-inline mx-4">Eventos</h3>
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Flogo-estrella-sm.png?alt=media&token=c24ae8d6-5608-45c4-ac64-65624c645173"
+              src="/public/logo-estrella-sm.png"
               alt="estrella chatarra"
               className="img-fluid estrella"
             />
@@ -30,7 +30,7 @@ function Eventos() {
                 className="m-4"
               >
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/chatarra-rock.appspot.com/o/images%2Fsongkick.png?alt=media&token=d5134bff-782f-41da-b9f6-5d31c6a8dd72"
+                  src="/public/songkick.png"
                   alt="logo songkick"
                   className="logo-songkick"
                 />
