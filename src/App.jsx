@@ -1,4 +1,8 @@
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import {
+  RouterProvider,
+  createBrowserRouter,
+  redirect,
+} from "react-router-dom";
 import "./App.css";
 import InicioPage from "./pages/InicioPage";
 import DiscografiaPage from "./pages/DiscografiaPage";
@@ -18,7 +22,11 @@ const router = createBrowserRouter(
       element: <RootLayout />,
       errorElement: <ErrorPage />,
       children: [
-        { path: "/", element: <InicioPage /> },
+        {
+          index: true,
+          loader: async () => redirect("/inicio"),
+        },
+        { path: "/inicio", element: <InicioPage /> },
         { path: "/discografia", element: <DiscografiaPage /> },
         { path: "/videos", element: <VideosPage /> },
         { path: "/biografia", element: <BiografiaPage /> },
@@ -30,7 +38,7 @@ const router = createBrowserRouter(
     },
   ],
   {
-    basename: import.meta.env.BASE_URL.replace(/\/$/, '')
+    basename: import.meta.env.BASE_URL.replace(/\/$/, ""),
   }
 );
 

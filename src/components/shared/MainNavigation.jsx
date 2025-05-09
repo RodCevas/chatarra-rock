@@ -29,7 +29,7 @@ function MainNavigation() {
           <ul className="navbar-nav mx-auto">
             <li id="inicio" className="nav-item mx-3">
               <NavLink
-                to="/"
+                to="/inicio"
                 className={`nav-link inicio hide-toggle-navbar ${activeNav}`}
                 end
               >
